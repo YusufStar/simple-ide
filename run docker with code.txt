@@ -1,0 +1,3 @@
+docker run --rm -v C:\Users\Yusuf\Desktop\IDE\code.py:/usr/src/app/code.py code-runner-python
+docker run --rm -v C:\Users\Yusuf\Desktop\IDE\code.js:/usr/src/app/code.js code-runner-node
+docker run --rm -v C:\Users\Yusuf\Desktop\IDE\Main.java:/usr/src/app/Main.java code-runner-java

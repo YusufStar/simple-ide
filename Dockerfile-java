@@ -1,0 +1,11 @@
+# Use an OpenJDK 17 base image
+FROM openjdk:17-jdk-slim
+
+# Set the working directory inside the container
+WORKDIR /usr/src/app
+
+# Compile the Java source code using javac
+RUN apt-get update && apt-get install -y build-essential
+
+# Command to compile and run Java program
+CMD ["sh", "-c", "javac Main.java && java Main"]

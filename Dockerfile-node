@@ -1,0 +1,6 @@
+# Dockerfile - Node.js
+FROM node:22.11.0
+
+WORKDIR /usr/src/app
+
+CMD ["node", "/usr/src/app/code.js"]
